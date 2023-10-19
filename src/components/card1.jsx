@@ -1,7 +1,8 @@
-import { Carousel } from "flowbite-react";
+import { Carousel, Datepicker } from "flowbite-react";
 
 function Flowcard() {
-  return (
+    return (
+        <>
     <div className="bg-gray-200 p-4">
       <Carousel className="w-full max-w-screen-xl mx-auto">
         <img
@@ -31,6 +32,15 @@ function Flowcard() {
         />
       </Carousel>
     </div>
+
+    <Datepicker
+      labelClearButton="Limpar"
+      labelTodayButton="Hoje"
+      language="pt-BR"
+    />
+
+</>
+
   );
 }
 

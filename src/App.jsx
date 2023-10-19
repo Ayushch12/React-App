@@ -1,7 +1,7 @@
 import { Button, Navbar } from 'flowbite-react';
 import React from 'react';
+import Login from './components/Login';
 import Flowcard from './components/card1';
-
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
       </div>
 
       <Flowcard></Flowcard>
+      <Login></Login>
     </>
   );
 }
